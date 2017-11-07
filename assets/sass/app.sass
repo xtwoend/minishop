@@ -1,0 +1,36 @@
+@charset "utf-8"
+
+/*! bulma.io v0.5.1 | MIT License | github.com/jgthms/bulma */
+@import "bulma/utilities/_all"
+@import "bulma/base/_all"
+@import "bulma/elements/_all"
+@import "bulma/components/_all"
+@import "bulma/grid/_all"
+@import "bulma/layout/_all"
+
+.nonoverflow
+  overflow: hidden
+
+.container 
+  max-width: 30rem !important
+.main-content
+  margin-top: 3.2rem
+  margin-bottom: 3.2rem
+// .columns.is-gapless>.column
+//   margin: 0
+//   padding: 0
+
+@media screen and (max-width: 769 - 1px)
+  .main-content
+    padding: 0.7rem
+
+@media screen and (min-width: 769 - 1px)
+  .main-content
+    padding-top: 0.7rem
+
+// .page-enter-active, 
+// .page-leave-active
+//   transition: opacity .1s
+// .page-enter, 
+// .page-leave-to
+//   opacity: 0
